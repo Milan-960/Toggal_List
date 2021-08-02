@@ -44,7 +44,11 @@ class UserFinder extends Component {
     return (
       <Fragment>
         <div className={classes.finder}>
-          <input type="search" onChange={this.searchChangeHandler.bind(this)} />
+          <input
+            type="search"
+            placeholder="Search...."
+            onChange={this.searchChangeHandler.bind(this)}
+          />
         </div>
         <Users users={this.state.filteredUsers} />
       </Fragment>
