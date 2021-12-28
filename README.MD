@@ -13,5 +13,4 @@ git clone https://github.com/Milan-960/Toggal_List.git
 
 <img src="./public/home.png" width="100%"  />
 <br/>
-</br>
 <img src="./public/user.png" width="100%"  />
